@@ -1,0 +1,77 @@
+body {
+	height: 800px;
+	
+	background-color: #224488;
+		
+	background-image:
+		url("shedewroom02.jpg")/*,
+		radial-gradient(rgb(0 0 192 / 1.0), rgb(0 192 255 / 1.0))*/;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.h2 {
+	color: #ddddff;
+	font-size: 28px;
+	/*font-style: underline;*/
+	transition-property: color, font-size;
+	transition-duration: 0.25s;
+}
+.h2:hover {
+	color: #ffffff;
+	/*font-style: underline;*/
+	/*font-size: 30px;*/
+}
+.lower {
+	position: absolute;
+	left: 200px;
+	top: 100px;
+}
+.center-div {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.space {
+   padding: 200px 30px;
+}
+.centerblock {
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  margin: -100px 0 0 0px;
+  /*background: #60a839;*/
+}
+
+
+
+.btn {
+	width: 100px;
+	height: 40px;
+	border-radius: 10px;
+	border: 2px outset #4488ff;
+	background-color: #bbddff;
+	color: #2266bb;
+	font-size: 18px;
+	font-weight: bold;
+	transition-property: color, border, background-color;
+	transition-duration: 0s;
+}
+.btn:hover {
+	border: 2px outset #5498ff;
+	background-color: #cbedff;
+	color: #4488ff;
+}
+.btn:active {
+	border: 3px inset #dd44bb;
+	background-color: #ddbbff;
+	color: #bb2288;
+}
+
+
+.frost_illustration {
+	height: 320px;
+	width: 320px;
+}
