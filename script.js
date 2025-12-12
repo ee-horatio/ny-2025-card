@@ -1,9 +1,10 @@
 
 const btn1 = document.querySelector("#btn1");
 const btn2 = document.querySelector("#btn2");
+const unlockableInputDiv = document.getElementById("unlockable-input-div");
 
 const inputQueue = [];
-const solutionQueue = [1, 3, 2, 4];
+const solutionQueue = [1, 6, 3, 4, 1, 2, 5];
 
 function isQueuePromising() {
 	//console.log(inputQueue);
@@ -31,6 +32,8 @@ function checkQueueProgress() {
 function checkVictory() {
 	if (isQueuesEqual()) {
 		alert("Последовательность правильная!\nВам 1 [подарок]!");	//violation
+		//unlockableInputDiv.hidden = false;
+		unlockableInputDiv.style.display = "flex";
 		clearInputQueue();
 	}
 }

@@ -8,15 +8,21 @@
 	</head>
 	
 	<body>
+	
 		<!--div class="space"/-->
-		<div class="centerblock">
+		
+		<div class="midblock">
+		
+			<!-- Инструкстишок -->
 			<div class="center-div">
 				<!--img src="shedewroom01.jpg" class="frost_illustration" float="left"/-->
 				<!--h2 class="h2">Нажмите на кнопки<br/>в правильном порядке<br/>и получите Приз,<br/>разгадав загадку!</h2-->
-				<h2 class="h2" class="lower">Нажмите на кнопки<br/>в правильном порядке,<br/>и тогда в коробке<br/>Вам придёт подарок!</h2>
+				<h2 class="h2" class="lower">Нажмите на кнопки<br/>в правильном порядке,<br/>и тогда на праздник<br/>к Вам придёт подарок!</h2>
 				<!--h2 class="h2" class="lower">Нажмите на цифры в правильном порядке,<br/>и тогда Вам точно покажу подарок!</h2-->
 			
 			</div>
+			
+			<!-- Кнопки ввода последовательности -->
 			<div class="center-div">
 				<table cellspacing="20">
 					<tr>
@@ -32,7 +38,17 @@
 					</tr>
 				</table>
 			</div>
+			
+			<!-- Выводимая кнопка "получения подарка" -->
+			<div class="center-div unlockable" id="unlockable-input-div">
+				<!--input type="text" id="sms-code"/-->
+				<div style="height:80px;width:300px;">
+					<a href="https://ya.ru"><button name="btn-gift" id="btn-gift" class="btn-gift">Получить ПОДАРОК!</button></a>
+				</div>
+			</div>
+			
 		</div>
+		
 		
 		
 		<script src="script.js"></script>
